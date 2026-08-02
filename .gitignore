@@ -1,0 +1,15 @@
+# Generated DuckDB warehouse (build artifact of running notebooks/01_e_commerce_etl_pipeline.ipynb)
+*.duckdb
+*.duckdb.wal
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
