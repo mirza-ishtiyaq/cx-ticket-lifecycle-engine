@@ -102,7 +102,7 @@ The final production fact table joining tickets, orders, and products with busin
 |---|---|---|
 | **Total Order Revenue** | $244,815,465.79 | `SUM(order_value)` from `gold_customer_experience` |
 | **Average Order Value (AOV)** | $244.82 | `AVG(order_value)` |
-| **Average Customer LTV** | $5,139.73 | `AVG(lifetime_spend)` |
+| **Average Customer LTV** | $4,896.31 | `SUM(order_value) / COUNT(DISTINCT customer_id)` |
 | **SLA Compliance Rate** | 50.04% | 500,434 within SLA / 1,000,000 total tickets |
 | **SLA Breach Count** | 499,566 | Tickets where `is_resolved = FALSE` |
 | **Average CSAT** | 3.00 / 5.00 | Neutral baseline due to non-response imputation |

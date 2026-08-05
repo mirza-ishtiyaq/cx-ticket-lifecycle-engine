@@ -29,7 +29,7 @@ This project processes **1,000,000 orders** and **1,000,000 customer support tic
 ### Key Financial & Operational Insights
 * **Total Associated Order Revenue:** `$244,815,465.79`
 * **Average Order Value (AOV):** `$244.82`
-* **Average Customer Lifetime Value (LTV):** `$5,139.73`
+* **Average Customer Lifetime Value (LTV):** `$4,896.31`
 * **Overall SLA Compliance Rate:** `50.04%` (Within SLA: 500,434 tickets | Breached: 499,566 tickets)
 * **Average CSAT Score:** `3.00 / 5.00` (Neutral baseline due to non-response imputation)
 * **High-Value VIP Priority Risk:** **49.35%** of all support tickets (493,502 tickets) are classified as `URGENT - High Value VIP` due to SLA breaches for customers with lifetime spend exceeding **$2,500**.
