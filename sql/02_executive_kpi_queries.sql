@@ -9,7 +9,7 @@ SELECT
     COUNT(DISTINCT customer_id) AS total_customers,
     ROUND(SUM(order_value), 2) AS total_order_revenue,
     ROUND(AVG(order_value), 2) AS avg_order_value,
-    ROUND(AVG(lifetime_spend), 2) AS avg_customer_lifetime_spend,
+    ROUND(SUM(order_value) / COUNT(DISTINCT customer_id), 2) AS avg_customer_lifetime_spend,
     ROUND(AVG(imputed_csat), 2) AS overall_avg_csat,
     ROUND(COUNT(CASE WHEN sla_status = 'Within SLA' THEN 1 END) * 100.0 / COUNT(*), 2) AS sla_compliance_pct,
     COUNT(CASE WHEN routing_priority = 'URGENT - High Value VIP' THEN 1 END) AS high_value_vip_urgent_tickets
