@@ -1,11 +1,6 @@
 # CX Support Ticket Lifecycle & SLA Breach Diagnostic Engine
 
-> **Resume Metrics Alignment**
-> This repository is the source of truth for the following resume claims:
-> - **2,000,000+ orders & support tickets** processed through a Bronze→Silver→Gold warehouse
-> - **49.35% of tickets** flagged as urgent VIP-risk before they became churn
-> - **SLA governance** — 50.04% compliance rate across 1M tickets, with automated VIP escalation routing
-> - **Data Quality Engine** — automated cleaning and live reporting for synthetic-but-realistic transactional data
+A Bronze→Silver→Gold warehouse over 2M+ orders and support tickets that flags which high-value customers are experiencing SLA breaches right now — before it turns into churn.
 
 ---
 
@@ -128,11 +123,9 @@ cx-ticket-lifecycle-engine/
 
 ---
 
-## Domain Terminology Mapping
+## Operations & CX Analytics Concepts Applied
 
-This project demonstrates the following operations-domain competencies from my resume:
-
-| Resume Skill | Implementation in This Repo |
+| Concept | Implementation in This Repo |
 |---|---|
 | **SLA governance** | `sla_status` field classifying every ticket as `'Within SLA'` or `'SLA Breached'` |
 | **Ticket lifecycle analytics** | Full Bronze→Silver→Gold transformation of 1M support tickets |
