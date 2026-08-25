@@ -111,9 +111,9 @@ The final production fact table joining tickets, orders, and products with busin
 
 ---
 
-## Domain Terminology Mapping
+## Operations & CX Analytics Concepts Applied
 
-| Resume Term | Pipeline Implementation |
+| Concept | Pipeline Implementation |
 |---|---|
 | **SLA governance** | `sla_status` field + `sla_compliance_pct` KPI |
 | **Ticket lifecycle** | Bronze (raw_tickets) → Silver (cleaned_tickets CTE) → Gold (gold_customer_experience) |
