@@ -179,7 +179,7 @@ Data generation is fully seeded: `Faker.seed(42)` and `random.seed(42)` are set 
 
 ---
 
-**Author:** Mirza Ishtiyaq Baig — Data Analyst, Supply Chain & Service Operations Analytics
+**Author:** Mirza Ishtiyaq Baig — Data, Operations & BI Analyst
 **LinkedIn:** [linkedin.com/in/mirzaishtiyaqbaig](https://www.linkedin.com/in/mirzaishtiyaqbaig/)
 **Email:** mirzaishtiyaqbaig1@gmail.com
 **GitHub:** [github.com/mirza-ishtiyaq](https://github.com/mirza-ishtiyaq)
